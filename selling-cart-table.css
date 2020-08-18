@@ -1,0 +1,109 @@
+.cart-page {
+  margin: 10px auto;
+  font-size: small;
+  background: #fefefe;
+}
+.cart-page table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  direction: rtl;
+}
+td img {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+td button {
+  text-decoration: none;
+  width: 100px;
+  color: white;
+  background: #ff5e6c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+td button:hover {
+  background: white;
+  color: #ff5e6c;
+  border: solid 1px rebeccapurple;
+}
+td p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+td:last-child, th:last-child {
+  text-align: left;
+  padding-right: 0px;
+  width: 150px;
+  padding-left: 10px;
+  text-transform: lowercase;
+}
+table th {
+  text-align: right;
+  background-color: #ff5e6c;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+table td {
+  padding: 10px 5px;
+}
+td input {
+  padding: 10px;
+  width: 70px;
+  height: 10px;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+table td,table p {
+  color: #ff5e6c;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+table th:nth-child(1) {
+  width: 450px;
+}
+table tr {
+  background: #fdfdfd;
+}
+
+@media only screen and (max-width: 800px) {
+  td img {
+    width: 100px;
+    height:100px;
+  }
+  .cart-page {
+    margin-top: 10px;
+  }
+  table td,table th,table p,table td button {
+    font-size: small;
+  }
+  table th:nth-child(1) {
+    width: 250px;
+  }
+  td:last-child, th:last-child {
+    text-align: left;
+    padding-right: 0px;
+    width: 80px;
+    padding-left: 10px;
+  }
+  table tr {
+    background: #f6f6f6;
+  }
+}
+@media only screen and (max-width: 500px) {
+  table td br {
+    display: none;
+  }
+  table th:nth-child(1) {
+    width: 110px;
+  }
+  .cart-page {
+    margin-top: 5px;
+  }
+}
