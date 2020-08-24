@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fa" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/32f77a75ad.js" attr crossorigin="anonymous"></script>
+    <link href="./assets/fontAwsome/css/all.css" rel="stylesheet">
+    <link href="./assets/w3css/w3.css" rel="stylesheet">
+    <link href="./assets/stylecss/main-sidebar1.1.css" rel="stylesheet">
+    <title>Biz Trader V 1.0</title>
+    <style media="screen">
+    @font-face {
+      font-family: sans-persian;
+      src: url(../../assets/textFonts/iranSansRrg.ttf);
+    }
+      * {box-sizing: border-box;}
+      body {
+        font-family: sans-persian;
+        padding: 0;
+      }
+      .main-container {
+        margin: 100px auto;
+        display: flex;
+        justify-content: center;
+      }
+      .big-container {
+        width: 60%;
+        display: flex;
+        flex-flow: column nowrap;
+        background: #fcfcfc;
+      }
+      .container-name {
+        direction: rtl;
+        text-align: right;
+        padding: 0rem;
+        margin: 2rem;
+      }
+      .container-name a {
+        text-decoration: none;
+        color: #ff5e6c;
+        fons-size: medium;
+      }
+      .container-name a:hover {
+        color: rebeccapurple;
+      }
+      .container-pic {
+        height: 500px;
+        padding: 10px;
+      }
+      #pic-1 {
+        background: url('./assets/img/index/drinks.jpg') no-repeat;
+        background-size: cover;
+      }
+      #pic-2 {
+        background: url('./assets/img/index/foods.jpg') no-repeat;
+        background-size: cover;
+      }
+      @media only screen and (max-width: 800px) {
+        .main-container {
+          margin: 10px auto;
+        }
+        .big-container {
+          width: 100%;
+        }
+        .container-pic {
+          height: 300px;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <body style="background-color:#ffffff;">
+      <input style="display: none" class="menu" id="menu" type="checkbox" name="menu">
+      <label for="menu" id="menu-label" class="icon">
+        <span class="fa-stack">
+          <i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i>
+          <i style="color: rebeccapurple" class="fa fa-bars fa-stack-1x fa-inverse"></i>
+        </span>
+      </label>
+      <div id="social-media" class="social-media">
+        <a href="#" id="instagram" class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i> <i id="inside-icon-in" class="fa fa-instagram fa-stack-1x fa-inverse"></i></a>
+        <a href="#" id="telegram" class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i> <i id="inside-icon-te" class="fa fa-send fa-stack-1x fa-inverse"></i></a>
+        <a href="#" id="twitter" class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i> <i id="inside-icon-tw" class="fa fa-twitter fa-stack-1x fa-inverse"></i></a>
+      </div>
+      <nav>
+        <div>BFApps</div>
+        <div class="nav-items">
+          <a href="#">بیشتر</a>
+          <a href="#">خوراکی ها</a>
+          <a href="#">میوه ها</a>
+          <a href="./assets/details-pages/drinks/drinks-list.html">نوشیدنی ها</a>
+        </div>
+        <div>
+          <div class="nav-right">
+            <a href="#" id="instagram" class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i> <i id="inside-icon-in" class="fa fa-instagram fa-stack-1x fa-inverse"></i></a>
+            <a href="#" id="telegram" class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i> <i id="inside-icon-te" class="fa fa-send fa-stack-1x fa-inverse"></i></a>
+            <a href="#" id="twitter" class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i> <i id="inside-icon-tw" class="fa fa-twitter fa-stack-1x fa-inverse"></i></a>
+          </div>
+          <div class="nav-search">
+            <span style="color: white;"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i><i id="inside-icon-search-1" class="fa fa-search fa-stack-1x fa-inverse"></i></span> <input type="search" id="search-1" name="search-1" placeholder="Search"></span>
+          </div>
+        </div>
+      </nav>
+      <aside class="aside" dir="rtl">
+        <a href="../../index.html"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i><i id="inside-icon-side-1" class="fa fa-home fa-stack-1x fa-inverse"></i></span><span class="aside-list">صفحه نخست</span></a>
+        <span style="color: #ffffff; margin: 1rem 0;"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i><i id="inside-icon-side-2" class="fa fa-search fa-stack-1x fa-inverse"></i></span> <input type="search" id="search" name="search" placeholder="جست و جو"></span>
+        <a href="#"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i><i id="inside-icon-side-4" class="fa fa-hamburger fa-stack-1x fa-inverse"></i></span><span class="aside-list">خوراکی ها</span></a>
+        <a href="./details-pages/drinks/drinks-list.html"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i><i id="inside-icon-side-5" class="fa fa-coffee fa-stack-1x fa-inverse"></i></span><span class="aside-list">نوشیدنی ها</span></a>
+        <a href="#"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x" style="vertical-align: middle"></i><i id="inside-icon-side-3" class="fa fa-address-card fa-stack-1x fa-inverse"></i></span><span class="aside-list">ارتباط با ما</span></a>
+      </aside>
+    <div class="main-container">
+      <div class="big-container">
+        <div class="container-name">
+          <a href="./details-pages/drinks/drinks-list.html">نوشیدنی ها</a>
+        </div>
+        <div class="container-pic" id="pic-1">
+
+        </div>
+        <div class="container-name">
+          <a href="./details-pages/foods/foods-list.html"> خوراکی ها </a>
+        </div>
+        <div class="container-pic" id="pic-2">
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
