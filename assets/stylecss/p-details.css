@@ -1,0 +1,97 @@
+@font-face {
+  font-family: sans-persian;
+  src: url(assets/textFonts/iranSansRrg.ttf);
+}
+form {
+  margin: auto auto;
+  padding: 10px 5px;
+  background: #fefefe;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.col-image img {
+  width: 500px;
+  height: 530px;
+  border-bottom: 30px #ff5e6c solid;
+}
+.col-details {
+  margin-right: 20px;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-around;
+}
+.col-details .col-text > p {
+  color: rebeccapurple;
+}
+.col-details .col-text > h1, h6 {
+  color: #000000;
+  font-weight: 700;
+}
+.col-details .many {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.many label {
+  font-weight: 600;
+  font-size: 3rem;
+  color: black;
+}
+.many input {
+  padding: 1rem;
+  border:none;
+  border-bottom: rebeccapurple solid 2px;
+  background: #fefefe;
+}
+.many input:focus {
+  border: none;
+  border-bottom: rebeccapurple solid 2px;
+}
+.btn-plus-minus button {
+  background-color: #ff5e6c;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  width: 110px;
+  border-radius: none;
+}
+.col-details-text {
+  padding: 50px 100px;
+  text-justify: center;
+}
+.submit-product {
+  width: calc(0.5rem + 220px);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: rebeccapurple;
+  color: white;
+  border:none;
+  border-radius: 0;
+}
+@media only screen and (max-width: 800px) {
+  .col-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .col-image img {
+    width: 85%;
+    height: 530px;
+  }
+  .col-details-text {
+    padding: 25px 20px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .col-image img {
+    width: 100%;
+    height: 400px;
+  }
+}
